@@ -13,7 +13,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-@Repository
+//@Repository
 public class JdbcOrderRepository implements OrderRepository{
     private SimpleJdbcInsert orderInserter;
     private SimpleJdbcInsert orderTacoInserter;

@@ -14,7 +14,7 @@ import java.sql.Types;
 import java.util.Arrays;
 import java.util.Date;
 
-@Repository
+//@Repository
 public class JdbcTacoRepository implements TacoRepository{
     private JdbcTemplate jdbc;
     public JdbcTacoRepository(JdbcTemplate jdbc) {
